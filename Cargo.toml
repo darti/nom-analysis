@@ -1,0 +1,12 @@
+[package]
+name = "nom-analysis"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["nom-analysis_macro"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nom_analysis_macro = { version = "0.1.0", path = "nom-analysis_macro" }
